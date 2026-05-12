@@ -1,0 +1,62 @@
+{
+  "enabledPlugins": {},
+  "effortLevel": "medium",
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  },
+  "permissions": {
+    "allow": [
+      "Read",
+      "Write(**)",
+      "Edit(**)",
+      "Glob",
+      "Grep",
+      "WebFetch",
+      "WebSearch",
+      "Bash(which *)",
+      "Bash(echo *)",
+      "Bash(mkdir *)",
+      "Bash(ls *)",
+      "Bash(find *)",
+      "Bash(cat *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(wc *)",
+      "Bash(pwd)",
+      "Bash(grep *)",
+      "Bash(tree *)",
+      "Bash(git diff *)",
+      "Bash(git status *)",
+      "Bash(git log *)",
+      "Bash(go build *)",
+      "Bash(go test *)",
+      "Bash(go vet *)",
+      "Bash(go generate *)",
+      "Bash(go mod *)",
+      "Bash(go env *)",
+      "Bash(go list *)",
+      "Bash(go doc *)",
+      "Bash(go version)",
+      "Bash(go fmt *)",
+      "Bash(golangci-lint *)",
+      "Bash(npm run *)",
+      "Bash(npm test *)",
+      "Bash(npm install *)",
+      "Bash(npx *)",
+      "Bash(node *)",
+      "Bash(venv/bin/python *)",
+      "Bash(venv/bin/pip *)",
+      "Bash(venv/bin/pytest *)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(sudo *)",
+      "Bash(curl *)",
+      "Bash(wget *)",
+      "Bash(pip *)",
+      "Bash(python *)",
+      "Bash(python3 *)",
+      "Bash(pytest *)"
+    ]
+  }
+}
